@@ -13,6 +13,10 @@ function diagonal(dimensions) {
   return result.toFixed(2)
 }
 
+function isSquare(d) {
+  return d.w == d.h
+}
+
 
 
 
@@ -20,5 +24,6 @@ function diagonal(dimensions) {
 module.exports = {
                 area,
                 perimiter,
-                diagonal
+                diagonal,
+                isSquare
                 }
